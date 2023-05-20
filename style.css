@@ -21,6 +21,7 @@ main {
 }
 main div * {
     margin: 10px 0px;
+    padding: 10px;
 }
 main img {
     width: 90px;
