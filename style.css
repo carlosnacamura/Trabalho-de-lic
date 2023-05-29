@@ -226,6 +226,14 @@ main img {
         height: 100%;
     }
 }
+a {
+    text-decoration: none;
+    color: red;
+    transition: .5s;
+}
+a:hover {
+    color: blue;
+}
 @media (min-width: 780px) {
     .box_main img {
         width: 200px;
