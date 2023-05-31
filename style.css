@@ -57,6 +57,7 @@ main img {
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
+    overflow: hidden;
 }
 .doaj{
     background-image: linear-gradient(30deg,rgb(228, 131, 131),tomato,red);
@@ -72,9 +73,6 @@ main img {
 }
 .arxiv {
     background-image: linear-gradient(30deg,tomato,gray);
-}
-.arxiv img {
-    width: 100px;
 }
 .ieee {
     background-image: linear-gradient(30deg,blue,white);
@@ -207,6 +205,18 @@ main img {
     animation: gradiente 6s linear alternate infinite;
     font-size: 20px;
 }
+.links {
+    background-color: black;
+    border-radius: 20px;
+    border: 3px solid white;
+    padding: 18px;
+    opacity: 0;
+    transition: .5s;
+}
+.links:hover {
+    background-color: white;
+    border: 3px solid black;
+}
 @keyframes gradiente {
     0% {
         background-position-x: 0%;
@@ -230,29 +240,28 @@ main img {
 .box_main:hover span {
     display: block;
 }
+.box_main:hover .links {
+    opacity: 1;
+}
 @media (max-width: 480px) {
     .box_main{
         width: 200px;
         height: 200px;
     }
     .box_main img {
-        width: 120px;
+        width: 89px;
+        margin: 10px;
     }
     .box_main:hover{
         height: 100%;
     }
 }
-a {
-    text-decoration: none;
-    color: red;
-    transition: .5s;
-}
-a:hover {
-    color: blue;
-}
 @media (min-width: 780px) {
     .box_main img {
         width: 200px;
+    }
+    .arxiv img,.jstor img,.bv img,.wiley img {
+        width: 150px;
     }
 }
 @keyframes fundo {
