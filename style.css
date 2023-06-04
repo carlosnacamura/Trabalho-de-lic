@@ -180,6 +180,12 @@ main img {
 .pnas {
     background-color: white;
 }
+.open {
+    background-image: radial-gradient(rgb(112, 200, 230),white);
+}
+.scielo {
+    background-image: linear-gradient(90deg,red,rgb(0, 0, 0));
+}
 .box_main img {
     margin: 10px;
 }
@@ -188,6 +194,9 @@ main img {
     display: none;
     transition: 1s;
     font-size: 15px;
+}
+.scielo p {
+    color: white;
 }
 .box_main p::after,span::after{
     content: '|';
