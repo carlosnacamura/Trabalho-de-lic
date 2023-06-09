@@ -7,9 +7,17 @@ function programção(elemento){
   });
 }
 programção(document.querySelector('.titulo'))
-programção(document.querySelector('.box_main p'))
+descricao(document.querySelector('.box_main p'))
 const ulSquares = document.querySelector("ul.squares")
 
+function descricao(element){
+  const textArrray = element.innerHTML.split('')
+  element.innerHTML = ''
+  textArrray.forEach((letra,i) => {
+    setTimeout(()=> element.innerHTML += letra,30*i)
+    
+  });
+}
 
 for ( let i = 0; i < 31; i++) {
     

@@ -236,7 +236,7 @@ main img {
 }
 .box_main:hover {
     transition: 1s;
-    width:55%;
+    width:50%;
     height: 60vh;
 }
 .box_main:hover p{
