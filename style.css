@@ -252,10 +252,13 @@ main img {
 .box_main:hover .links {
     opacity: 1;
 }
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
     .box_main{
         width: 200px;
         height: 200px;
+    }
+    .box_main:hover {
+        width: 90%;
     }
     .box_main img {
         width: 89px;
