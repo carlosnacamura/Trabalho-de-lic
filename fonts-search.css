@@ -1,0 +1,207 @@
+.doaj {
+    /* background-image: linear-gradient(30deg, rgb(228, 131, 131), tomato, red); */
+    background-color: #282624;
+}
+
+.qedu {
+    /* background-image: linear-gradient(30deg, rgb(0, 255, 0), green); */
+    background-color: white;
+}
+
+.ibge {
+    /* background-image: linear-gradient(30deg, rgb(0, 87, 248), white); */
+    background-color: white;
+}
+
+.pubmed {
+    background-image: url(imgs/background-pubmed.svg);
+}
+
+.arxiv {
+    /* background-image: linear-gradient(30deg, tomato, gray); */
+    background-color: #B31B1B;
+}
+
+.ieee {
+    /* background-image: linear-gradient(30deg, blue, white); */
+    background-color: white;
+}
+
+.jstor {
+    /* background-image: linear-gradient(30deg, red, white); */
+    background-color: white;
+}
+
+.bv {
+    /* background-image: linear-gradient(90deg, white, rgb(47, 0, 255)); */
+    background-color: white;
+}
+
+.wws {
+    /* background-image: linear-gradient(30deg, blue, lightblue); */
+    background-color: white;
+
+}
+
+.dialnet {
+    /* background-image: linear-gradient(30deg, tomato, white); */
+    background-color: white;
+
+}
+
+.base {
+    /* background-image: linear-gradient(30deg, orange, gray); */
+    background-color: white;
+}
+
+.refseek {
+    /* background-image: linear-gradient(30deg, gray, rgba(0, 89, 255, 0.932)); */
+    background-color: white;
+
+}
+
+.microsoft {
+    /* background-image: linear-gradient(30deg, lightblue, rgb(84, 202, 241)); */
+    background-color: white;
+}
+
+.ciencia {
+    background-color: #E45E3E;
+}
+
+.bbc {
+    background-color: #BB1819;
+}
+
+.bdtd {
+    /* background-image: linear-gradient(40deg, rgb(2, 192, 2), orange); */
+    background-color: white;
+}
+
+.lume {
+    /* background-image: linear-gradient(30deg, rgb(0, 140, 255), white); */
+    background-color: white;
+
+}
+
+.redalyc {
+    background-color: white;
+}
+
+.scopus {
+    background-color: white;
+}
+
+.scholarpedia {
+    background-color: white;
+
+}
+
+.bn {
+    background-color: white;
+
+}
+
+.unisagrado {
+    /* background-image: linear-gradient(30deg, darkred, red, tomato); */
+    background-color: white;
+}
+
+.galileu {
+    background-color: #1D1918;
+}
+
+.spacetoday {
+    background-image: url(https://st4.depositphotos.com/18803028/29828/i/600/depositphotos_298282426-stock-photo-2d-illustration-deep-vast-space.jpg);
+    border: 1px solid white;
+}
+
+.spacetoday span {
+    color: white;
+}
+
+.eric {
+    /* background-image: linear-gradient(30deg, green, white); */
+    background-color: white;
+}
+
+.funiber {
+    background-color: white;
+
+}
+
+.academia {
+    background-color: white;
+
+}
+
+.science {
+    background-color: white;
+
+}
+
+.usp {
+    /* background-image: linear-gradient(30deg, rgb(0, 136, 146), rgb(7, 255, 181), yellow); */
+    background-color: #1092A9;
+
+}
+
+.nature {
+    background-color: white;
+}
+
+.capes {
+    background-color: white;
+
+}
+
+.plos {
+    background-color: #001361;
+}
+
+.google {
+    background-color: white;
+
+}
+
+.acs {
+    background-color: white;
+
+}
+
+.elsevier {
+    background-color: white;
+
+}
+
+.springer {
+    background-color: white;
+
+}
+
+.wiley {
+    background-color: white;
+
+}
+
+.cell {
+    background-color: white;
+
+}
+
+.pnas {
+    background-color: white;
+}
+
+.open {
+    background-color: #E1DCC5;
+}
+
+.scielo {
+    background-color: white;
+
+}
+
+.scielo p {
+    color: white;
+}
